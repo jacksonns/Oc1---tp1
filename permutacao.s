@@ -5,7 +5,7 @@ num: .word 3         #numero de elementos
     
 .text
 main:
-    la x12, vet1    #carrega vetor 1
+    la x12, vet1     #carrega vetor 1
     la x13, vet2    #carrega vetor 2
     lw x14, num     #recebe numero de elementos
     addi x5, x0, -1  #inicia contador 1 com -1
