@@ -21,7 +21,7 @@ continua1:
 	jr x1
     
 continua2:
-	addi sp, sp, -8			# cria espaço para 2 numeros na pilha
+	addi sp, sp, -8			# cria espaco para 2 numeros na pilha
 	sw x1, 4(sp)		    # empilha x1
 	sw x10, 0(sp)			# empilha x10
 
